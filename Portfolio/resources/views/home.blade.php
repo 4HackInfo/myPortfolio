@@ -95,7 +95,7 @@
                 I hope to your Company is to Invite me as a team of their 
                 successful project. I want to serve your company as you want and your
                 Desire to make you more success and to improve the bussiness and technically 
-                enhance.</h3>
+                enhance. Allowing you to preserve and the path of successful way.</h3>
          </div>    
 
          <div class="profile-handler">
