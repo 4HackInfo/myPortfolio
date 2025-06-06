@@ -90,7 +90,12 @@
     <div class="container">
          <div class="information">
             <h1>Christian Andiason.</h1>
-            <h3>Im interested to work into the IT field to join to others make and build a big project. As a role of Web Designer and programmer. I hope to your Company is to Invite me as a team of their successful project.</h3>
+            <h3>Im interested to work into the IT field to join to others make and 
+                build a big project. As a role of Web Designer and programmer. 
+                I hope to your Company is to Invite me as a team of their 
+                successful project. I want to serve your company as you want and your
+                Desire to make you more success and to improve the bussiness and technically 
+                enhance.</h3>
          </div>    
 
          <div class="profile-handler">
