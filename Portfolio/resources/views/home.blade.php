@@ -7,18 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="m-0 p-0 w-full h-screen bg-cover bg-center bg-fixed bg-no-repeat bg-blend-overlay bg-black/30" style="background-image: url('/background3.jpg')">
-
-    <!-- Header / Navigation -->
-    <header class="bg-black/50 text-white py-4 w-[100%]">
-        <nav class="flex justify-center gap-6 text-lg font-semibold">
-            <a href="#home" class="hover:bg-white hover:text-black px-4 py-2 rounded transition">Home</a>
-            <a href="#about" class="hover:bg-white hover:text-black px-4 py-2 rounded transition">About</a>
-            <a href="#achievement" class="hover:bg-white hover:text-black px-4 py-2 rounded transition">Achievement</a>
-            <a href="#skills" class="hover:bg-white hover:text-black px-4 py-2 rounded transition">Skills</a>
-            <a href="#contact" class="hover:bg-white hover:text-black px-4 py-2 rounded transition">Contact</a>
-            <a href="#portfolio" class="hover:bg-white hover:text-black px-4 py-2 rounded transition">Portfolio</a>
-        </nav>
-    </header>
+@include('layout.nav')
 
     <!-- Main Section -->
     <main class="flex flex-col md:flex-row items-center justify-center h-[calc(100vh-64px)] px-6 md:px-16">
