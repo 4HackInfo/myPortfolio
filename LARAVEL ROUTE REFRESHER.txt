@@ -1,0 +1,16 @@
+php artisan route:clear
+php artisan view:clear
+php artisan config:clear
+php artisan cache:clea
+php artisan route:cache
+
+#if the table error 
+php artisan session:table
+php artisan migrate
+php artisan config:clear
+
+#download node.js for vite framework
+manually go to windows 'Edit the System environment variables'
+
+project/path> npm install
+project/path> npm run dev
