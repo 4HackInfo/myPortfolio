@@ -21,16 +21,19 @@
         .animate-fade-down {
             animation: fade-down 0.8s ease-out both;
         }
-        .delay-100 { animation-delay: 0.1s; }
-        .delay-200 { animation-delay: 0.2s; }
-        .delay-300 { animation-delay: 0.3s; }
+        .delay-50{ animation-delay:0.5s}
+        .delay-100 { animation-delay: 0.7s; }
+        .delay-200 { animation-delay: 0.9s; }
+        .delay-300 { animation-delay: 1.0s; }
+
+        
     </style>
 </head>
 <body class="m-0 p-0 w-full h-screen bg-cover bg-center bg-fixed bg-no-repeat bg-blend-overlay bg-black/30" style="background-image: url('/background3.jpg')">
 @include('layout.nav')
 
     <!-- Main Section -->
-    <main class="flex flex-col md:flex-row items-center justify-center h-[calc(100vh-64px)] px-6 md:px-16">
+    <main class="flex flex-col md:flex-row items-center justify-center h-[calc(100vh-60px)] px-6 md:px-16">
         
         <!-- Information Section -->
         <div class="text-white md:w-1/2 space-y-4 animate-fade-down">
@@ -51,7 +54,7 @@
 
         <!-- Profile Image Section -->
         <div class="md:w-1/2 mt-10 md:mt-0 grid grid-cols-2 grid-rows-2 justify-center gap-5 ml-10">
-        <img src="fav2.jpg" alt="" class="rounded-lg animate-fade-down">
+        <img src="fav2.jpg" alt="" class="rounded-lg animate-fade-down delay-50">
         <img src="fav4.jpg" alt="" class="rounded-lg h-[100%] animate-fade-down delay-100">
         <img src="fav6.jpg" alt="" class="rounded-lg animate-fade-down delay-200">
         <img src="fav7.jpg" alt="" class="rounded-lg animate-fade-down delay-300">
@@ -59,22 +62,35 @@
        </div>
     </main>
 
-    <div class="w-[100%] h-screen m-auto grid sm:grid-cols-3 md:grid-rows-2 justify-items-center " >
-        <img src="fav6.jpg" alt="profile" class="w-[90%] h-[90%]  border-s-white/500 rounded-lg" >
-        <img src="fav1.jpeg" alt="profile1" class="w-[90%] h-[90%] rounded-lg">
-        <img src="fav2.jpg" alt="profile2" class="w-[90%] h-[90%] rounded-lg">
-           <img src="fav7.jpg" alt="profile" class="w-[90%] h-[90%] rounded-lg">
-        <img src="fav4.jpg" alt="profile1" class="w-[90%] h-[90%] rounded-lg">
-        <img src="fav5.jpg" alt="profile2" class="w-[90%] h-[90%] rounded-lg">
+   <div class="w-full h-screen grid grid-cols-2 items-start">
+    <div class="w-[100%] h-[60vh] text-[20px] leading-[30px] flex items-center ml-10 text-justify text-white">
+        <div>
+            <h1 class="text-yellow-300 text-[50px] font-bold mb-4">Who I Am</h1>
+            <p>
+                I am a passionate IT professional specializing in website and system development. 
+                I focus on creating strong, unique designs that are both functional and visually stunning. 
+                Throughout my academic journey, I've gained extensive knowledge in various IT domains including:
+            </p>
+            <ul class="list-disc pl-5 mt-4">
+                <li>Web Development & Design</li>
+                <li>Quality Assurance & Testing</li>
+                <li>Penetration Testing & Ethical Hacking (White/Black Hat)</li>
+                <li>System Analysis</li>
+                <li>Project Leadership</li>
+                <li>Network & Computer Engineering</li>
+                <li>Cybersecurity Engineering</li>
+            </ul>
+            <p class="mt-4">
+                My diverse skill set allows me to approach projects from multiple perspectives, 
+                ensuring comprehensive solutions that address both technical and design requirements.
+            </p>
+        </div>
     </div>
+    <div class="w-[80%] h-[100vh] m-auto grid items-start">
+        <img src="web.png" alt="Web Development Illustration">
+    </div>
+</div>
 
-    <div class="w-[900px] h-[200px] m-auto text-white font-mono font-normal leading-tight tracking-wide">
-        <h3><span class="text-[20px] text-yellow-300">Operating system</span> is the one who calculate the data then processing
-             the output and accepting the input value, allowing BIOS process
-            and interaction with the components 
-            <span class="text-yellow-50 "> (monitor, cpu, ram, ssd, Gpu card, External ports and Internal ports)</span></h3>
-            <button class="bg-yellow-500 py-3 px-3 rounded-xl hover:bg-yellow-300 hover: font-bold hover:text-lg mt-6">Explore now</button>
-    </div>
 
 </body>
 </html>
