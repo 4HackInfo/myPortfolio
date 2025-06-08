@@ -38,7 +38,7 @@
             <p class="text-lg leading-relaxed text-justify">
                 I'm interested in working in the IT field, collaborating on impactful projects as a web designer and programmer.
                 I hope your company will consider me for a role in a successful team. I'm passionate about contributing to growth
-                and technical excellence. Let’s build something great together. <br><br>
+                and technical excellence. Let’s builds something great together. <br><br>
                 <span class="font-bold">Contact me if you're interested!</span>
             </p>
             <div class="w-[50%] h-[30%] grid grid-cols-4 gap-4 py-10">
