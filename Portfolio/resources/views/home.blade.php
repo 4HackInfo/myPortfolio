@@ -4,79 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>HOME</title>
-
-    <style>
-        body{
-            margin: 0;
-            width: 100%;
-            height: 100vh;
-            background-image: url(/background.jpg);
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-blend-mode: color;
-            background-color:rgba(0, 0, 0, 0.69);
-        }
-        header{
-            background-color:rgba(0, 0, 0, 0.42);
-            color: white;
-            height: 10%;
-            display: flex;
-            justify-content: center;
-        }
-        nav{
-            width: 100%;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center ;
-        }
-
-        nav a{
-            color: white;
-            text-decoration: none;
-            font-size: large;
-            font-weight:800;  
-            padding: 10px;
-        }
-
-        nav a:hover{
-            border: 1px solid white;
-            border-radius: 14px;
-            background-color: white;
-            color: black;
-        }
-
-        .container{
-            width: 100%;
-            height: 100vh;
-            display: grid;
-            grid-template-columns: 50% 50%;
-        }
-        .information{
-            grid-column: 1;
-            height: 50%;
-            color: white;
-            align-content: center;
-        }
-
-        .profile-handler{
-            width: 100%;
-            height: 100vh;
-            grid-column: 2;
-            align-content: center;
-        }
-        
-        img{
-            width: 100%;    
-            height: 100vh;
-        }
-    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="m-0 p-0 w-full h-screen bg-cover bg-center bg-fixed bg-no-repeat bg-blend-overlay bg-black/10" style="background-image: url('/background.jpg')">
+<body class="m-0 p-0 w-full h-screen bg-cover bg-center bg-fixed bg-no-repeat bg-blend-overlay bg-black/30" style="background-image: url('/background3.jpg')">
 
     <!-- Header / Navigation -->
-    <header class="bg-black/50 text-white py-4">
+    <header class="bg-black/50 text-white py-4 w-[100%]">
         <nav class="flex justify-center gap-6 text-lg font-semibold">
             <a href="#home" class="hover:bg-white hover:text-black px-4 py-2 rounded transition">Home</a>
             <a href="#about" class="hover:bg-white hover:text-black px-4 py-2 rounded transition">About</a>
@@ -99,21 +32,27 @@
                 and technical excellence. Let’s build something great together. <br><br>
                 <span class="font-bold">Contact me if you're interested!</span>
             </p>
+            <div class="w-[50%] h-[30%] grid grid-cols-4 gap-4 py-10">
+                <img src="icon1.png" alt="">
+                <img src="icon2.png" alt="" class=" bg-white/100 rounded-lg">
+                <img src="icon3.png" alt="" class=" rounded-lg">
+                <img src="icon4.png" alt="" class="rounded-lg">
+            </div>
         </div>
 
         <!-- Profile Image Section -->
         <div class="md:w-1/2 mt-10 md:mt-0 flex justify-center">
-            <img src="/profile2.jpg" alt="Profile Photo" class="rounded-xl shadow-lg w-[400px] h-[400px] object-cover">
+            <img src="/profile2.jpg" alt="Profile Photo" class="rounded-xl shadow-lg w-[600px] h-[600px] object-cover">
         </div>
     </main>
 
-    <div class="w-full h-screen m-auto grid grid-cols-3 grid-rows-2 justify-items-center" >
-        <img src="fav6.jpg" alt="profile" class="w-[80%] h-[80%] ml-1 rounded-xl border-s-white" >
-        <img src="fav1.jpeg" alt="profile1" class="w-[80%] h-[80%] rounded-xl">
-        <img src="fav2.jpg" alt="profile2" class="w-[80%] h-[80%] mr-1 rounded-xl">
-           <img src="fav3.png" alt="profile" class="w-[80%] h-[80%] ml-1 rounded-xl">
-        <img src="fav4.jpg" alt="profile1" class="w-[80%] h-[80%] rounded-xl">
-        <img src="fav5.jpg" alt="profile2" class="w-[80%] h-[80%] mr-1 rounded-xl">
+    <div class="w-[100%] h-screen m-auto grid sm:grid-cols-3 md:grid-rows-2 justify-items-center " >
+        <img src="fav6.jpg" alt="profile" class="w-[90%] h-[90%]  border-s-white/500" >
+        <img src="fav1.jpeg" alt="profile1" class="w-[90%] h-[90%] ">
+        <img src="fav2.jpg" alt="profile2" class="w-[90%] h-[90%] ">
+           <img src="fav7.jpg" alt="profile" class="w-[90%] h-[90%] ">
+        <img src="fav4.jpg" alt="profile1" class="w-[90%] h-[90%] ">
+        <img src="fav5.jpg" alt="profile2" class="w-[90%] h-[90%] ">
     </div>
 
     <div class="w-[900px] h-[200px] m-auto text-white font-mono font-normal leading-tight tracking-wide">
