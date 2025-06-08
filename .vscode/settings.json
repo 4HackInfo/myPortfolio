@@ -1,0 +1,5 @@
+{
+"network.strictSSL": false,
+"extensions.autoCheckUpdates": true,
+"extensions.autoUpdate": true
+}

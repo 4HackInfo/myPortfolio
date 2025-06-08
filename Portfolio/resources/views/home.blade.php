@@ -4,7 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>HOME</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body{
+            margin: 0;
+            width: 100%;
+            height: 100vh;
+            background-image: url(/background.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-blend-mode: color;
+            background-color:rgba(0, 0, 0, 0.69);
+        }
+        header{
+            background-color:rgba(0, 0, 0, 0.42);
+            color: white;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+        }
+        nav{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center ;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            font-size: large;
+            font-weight:800;  
+            padding: 10px;
+        }
+
+        nav a:hover{
+            border: 1px solid white;
+            border-radius: 14px;
+            background-color: white;
+            color: black;
+        }
+
+        .container{
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+        .information{
+            grid-column: 1;
+            height: 50%;
+            color: white;
+            align-content: center;
+        }
+
+        .profile-handler{
+            width: 100%;
+            height: 100vh;
+            grid-column: 2;
+            align-content: center;
+        }
+        
+        img{
+            width: 100%;    
+            height: 100vh;
+        }
+    </style>
 </head>
 <body class="m-0 p-0 w-full h-screen bg-cover bg-center bg-fixed bg-no-repeat bg-blend-overlay bg-black/10" style="background-image: url('/background.jpg')">
 
