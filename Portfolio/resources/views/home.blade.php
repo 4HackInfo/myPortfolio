@@ -6,7 +6,7 @@
     <title>HOME</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="m-0 p-0 w-full h-screen bg-cover bg-center bg-fixed bg-no-repeat bg-blend-overlay bg-black/70" style="background-image: url('/background.jpg')">
+<body class="m-0 p-0 w-full h-screen bg-cover bg-center bg-fixed bg-no-repeat bg-blend-overlay bg-black/10" style="background-image: url('/background.jpg')">
 
     <!-- Header / Navigation -->
     <header class="bg-black/50 text-white py-4">
@@ -25,7 +25,7 @@
         
         <!-- Information Section -->
         <div class="text-white md:w-1/2 space-y-4">
-            <h1 class="text-4xl font-bold">Christian Andiason</h1>
+            <h1 class="text-4xl font-bold text-yellow-300">Christian Andiason</h1>
             <p class="text-lg leading-relaxed">
                 I'm interested in working in the IT field, collaborating on impactful projects as a web designer and programmer.
                 I hope your company will consider me for a role in a successful team. I'm passionate about contributing to growth
@@ -40,8 +40,13 @@
         </div>
     </main>
 
-    <div class="w-full h-screen m-auto bg-cover bg-fixed bg-no-repeat bg-blend-overlay" >
-        <img src="operating.jpg" alt="operating system" class="w-[70%] h-[500px] m-auto rounded-xl ">
+    <div class="w-full h-screen m-auto grid grid-cols-3 grid-rows-2 justify-items-center" >
+        <img src="fav6.jpg" alt="profile" class="w-[80%] h-[80%] ml-1 rounded-xl border-s-white" >
+        <img src="fav1.jpeg" alt="profile1" class="w-[80%] h-[80%] rounded-xl">
+        <img src="fav2.jpg" alt="profile2" class="w-[80%] h-[80%] mr-1 rounded-xl">
+           <img src="fav3.png" alt="profile" class="w-[80%] h-[80%] ml-1 rounded-xl">
+        <img src="fav4.jpg" alt="profile1" class="w-[80%] h-[80%] rounded-xl">
+        <img src="fav5.jpg" alt="profile2" class="w-[80%] h-[80%] mr-1 rounded-xl">
     </div>
 
     <div class="w-[900px] h-[200px] m-auto text-white font-mono font-normal leading-tight tracking-wide">
