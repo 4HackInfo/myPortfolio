@@ -62,7 +62,7 @@
        </div>
     </main>
 
-   <div class="w-full h-screen grid grid-cols-2 items-start">
+   <div class="w-full h-[80vh] grid grid-cols-2 items-start">
     <div class="w-[100%] h-[60vh] text-[20px] leading-[30px] flex items-center ml-10 text-justify text-white">
         <div>
             <h1 class="text-yellow-300 text-[50px] font-bold mb-4">Who I Am</h1>
@@ -91,6 +91,10 @@
     </div>
 </div>
 
-
+<footer class="w-[100%] h-[20%] bg-[#151B54] text-white grid items-center justify-center">
+    <div >
+        <h2>Andiasonchristian1@gmail.com</h2>
+    </div>
+</footer>
 </body>
 </html>
