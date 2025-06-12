@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 // tailwind.config.js
 export default {
   content: [
@@ -15,8 +16,24 @@ export default {
       },
       animation: {
         'fade-down': 'fade-down 0.8s ease-out both',
+=======
+module.exports = {
+  darkMode: 'class', // Enable class-based dark mode
+  content: [
+    "./resources/**/*.blade.php",
+    "./resources/**/*.js",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        // Custom colors (optional)
+>>>>>>> Stashed changes
       },
     },
   },
   plugins: [],
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
