@@ -62,7 +62,11 @@
        </div>
     </main>
 
+<<<<<<< HEAD
    <div class="w-full h-screen grid grid-cols-2 items-start mt-20">
+=======
+   <div class="w-full h-screen grid grid-cols-2 items-start">
+>>>>>>> fed85b50d14ac0ff359a31d9cffa1616635d7055
     <div class="w-[100%] h-[60vh] text-[20px] leading-[30px] flex items-center ml-10 text-justify text-white">
         <div>
             <h1 class="text-yellow-300 text-[50px] font-bold mb-4">Who I Am</h1>
@@ -91,6 +95,7 @@
     </div>
 </div>
 
+<<<<<<< HEAD
 <footer class=" w-[100%] py-[40px]  bg-[#101e6d] text-white/100 m-auto flex justify-center items-center">
 <div class="w-[70%] grid grid-cols-3 justify-right gap-10">
     <p>andiasonchristian1@gmail.com</p>
@@ -101,6 +106,8 @@
     <p>tele: Device_Config</p>
 </div>
 </footer>
+=======
+>>>>>>> fed85b50d14ac0ff359a31d9cffa1616635d7055
 
 </body>
 </html>
