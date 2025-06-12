@@ -41,7 +41,7 @@
             <p class="text-lg leading-relaxed text-justify">
                 I'm interested in working in the IT field, collaborating on impactful projects as a web designer and programmer.
                 I hope your company will consider me for a role in a successful team. I'm passionate about contributing to growth
-                and technical excellence. Let’s build something great together. <br><br>
+                and technical excellence. Let’s builds something great together. <br><br>
                 <span class="font-bold">Contact me if you're interested!</span>
             </p>
             <div class="w-[50%] h-[30%] grid grid-cols-4 gap-4 py-10">
@@ -62,7 +62,11 @@
        </div>
     </main>
 
+<<<<<<< HEAD
+   <div class="w-full h-screen grid grid-cols-2 items-start mt-20">
+=======
    <div class="w-full h-screen grid grid-cols-2 items-start">
+>>>>>>> fed85b50d14ac0ff359a31d9cffa1616635d7055
     <div class="w-[100%] h-[60vh] text-[20px] leading-[30px] flex items-center ml-10 text-justify text-white">
         <div>
             <h1 class="text-yellow-300 text-[50px] font-bold mb-4">Who I Am</h1>
@@ -91,6 +95,19 @@
     </div>
 </div>
 
+<<<<<<< HEAD
+<footer class=" w-[100%] py-[40px]  bg-[#101e6d] text-white/100 m-auto flex justify-center items-center">
+<div class="w-[70%] grid grid-cols-3 justify-right gap-10">
+    <p>andiasonchristian1@gmail.com</p>
+    <p>+639506681284</p>
+    <p>fb: Christian Andiason</p>
+    <p>git: 4HackInfo</p>
+    <p>insta: Christian_Andiason</p>
+    <p>tele: Device_Config</p>
+</div>
+</footer>
+=======
+>>>>>>> fed85b50d14ac0ff359a31d9cffa1616635d7055
 
 </body>
 </html>
