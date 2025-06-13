@@ -41,7 +41,7 @@
             <p class="text-lg leading-relaxed text-justify">
                 I'm interested in working in the IT field, collaborating on impactful projects as a web designer and programmer.
                 I hope your company will consider me for a role in a successful team. I'm passionate about contributing to growth
-                and technical excellence. Let’s builds something great together. <br><br>
+                and technical excellence. Let’s build something great together. <br><br>
                 <span class="font-bold">Contact me if you're interested!</span>
             </p>
             <div class="w-[50%] h-[30%] grid grid-cols-4 gap-4 py-10">
@@ -62,11 +62,7 @@
        </div>
     </main>
 
-<<<<<<< HEAD
-   <div class="w-full h-screen grid grid-cols-2 items-start mt-20">
-=======
    <div class="w-full h-[80vh] grid grid-cols-2 items-start">
->>>>>>> fed85b50d14ac0ff359a31d9cffa1616635d7055
     <div class="w-[100%] h-[60vh] text-[20px] leading-[30px] flex items-center ml-10 text-justify text-white">
         <div>
             <h1 class="text-yellow-300 text-[50px] font-bold mb-4">Who I Am</h1>
@@ -95,6 +91,15 @@
     </div>
 </div>
 
-
+<footer class="w-[100%] h-[20%] bg-[#151B54] text-white flex items-center justify-center">
+    <div class="w-[60%] h-[10vh]  grid grid-cols-3 grid-rows-2 justity-right text-white">
+        <p>andiasonchristian1@gmail.com</p>
+        <p>+6309506681284</p>
+        <p class="px-10">git: 4HackInfo</p>
+        <p>insta: Andiason.</p>
+        <p>youtube: AndiasonYT</p>
+        <p class="px-10">tel: Cybersec</p>
+    </div>
+</footer>
 </body>
 </html>
